@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     background-color: #000;
-    background-image: url(beach.jpg);
+    background-image: url(photos/beach.jpg);
     background-position: center center;
     background-size: cover;
     width: 100%;
@@ -59,10 +59,6 @@ body{
     background-color: palegoldenrod;
 }
 
-.project-item-wrapper > img {
-    height:80%;
-    width: 100%;
-}
 
 .nav-link-wrapper > a{
     color:lightslategrey;
@@ -77,7 +73,7 @@ body{
 }
 
 .project-content-wrapper {
-    margin-top: 5%;
+    margin-top: 2%;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -86,7 +82,7 @@ body{
     margin-left: 15%;
     margin-right: 15%;
     position:relative;
-    height:80vh;
+    height:100vh;
 }
 
 .project-item-description {
